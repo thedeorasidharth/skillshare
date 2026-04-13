@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --bg-luxury: #FFF5F5;
+  --card-bg: #FFFFFF;
+  --text-dark: #2B2B2B;
+  --text-muted: #6B7280;
+  --nav-bg: rgba(255, 255, 255, 0.9);
+  --border-secondary: rgba(128, 0, 32, 0.1);
+  --selection-bg: rgba(244, 194, 194, 0.4);
+}
+
+.dark {
+  --bg-luxury: #1E1214;          /* Softened Soot-Burgundy */
+  --card-bg: #281B1E;           /* Refined Plum-Black */
+  --text-dark: #F5EDED;         /* Soft White-Pink */
+  --text-muted: #C9A9A9;        /* Warm Rose-Gray */
+  --nav-bg: rgba(30, 18, 20, 0.95);
+  --border-secondary: #352629;  /* Noble Dark Border */
+  --selection-bg: rgba(128, 0, 32, 0.6);
+}
+
+@theme {
+  --font-sans: 'Outfit', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  
+  /* Premium Luxury Palette */
+  --color-primary: #800020;    /* Burgundy constant */
+  --color-secondary: #F4C2C2;  /* Blush Pink constant */
+  --color-bg-luxury: var(--bg-luxury);
+  --color-card-bg: var(--card-bg);
+  --color-text-dark: var(--text-dark);
+  --color-text-muted: var(--text-muted);
+  --color-nav-bg: var(--nav-bg);
+  --color-border-secondary: var(--border-secondary);
+  
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+}
+
+body {
+  @apply font-sans antialiased min-h-screen bg-bg-luxury text-text-dark;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-luxury);
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-secondary hover:bg-primary/20;
+  transition: background-color 0.4s ease;
+}
+
+/* Selection refinement */
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--color-primary);
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}

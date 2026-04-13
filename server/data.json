@@ -1,0 +1,390 @@
+{
+  "users": [
+    {
+      "_id": "mock_alice",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "password": "password123",
+      "skillsTeach": [
+        "react",
+        "node.js"
+      ],
+      "skillsLearn": [
+        "python",
+        "design"
+      ]
+    },
+    {
+      "_id": "mock_bob",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "password": "password123",
+      "skillsTeach": [
+        "Python",
+        "Data Science"
+      ],
+      "skillsLearn": [
+        "React",
+        "Marketing"
+      ]
+    },
+    {
+      "_id": "mock_charlie",
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "password": "password123",
+      "skillsTeach": [
+        "UI/UX",
+        "Figma"
+      ],
+      "skillsLearn": [
+        "Node.js",
+        "Typescript"
+      ]
+    },
+    {
+      "_id": "mock_1775221427068",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "password123",
+      "skillsTeach": [],
+      "skillsLearn": []
+    },
+    {
+      "_id": "mock_1775221444863",
+      "name": "Verified User",
+      "email": "verified@example.com",
+      "password": "password123",
+      "skillsTeach": [],
+      "skillsLearn": []
+    },
+    {
+      "_id": "mock_1775221653376",
+      "name": "sidhu",
+      "email": "deorasidharth@gmail.com",
+      "password": "sidh9046",
+      "skillsTeach": [
+        "react"
+      ],
+      "skillsLearn": [
+        "dsa",
+        "dbms",
+        "django"
+      ]
+    },
+    {
+      "_id": "mock_1775221731151",
+      "name": "nilu",
+      "email": "nilu@gmail.com",
+      "password": "sidh906",
+      "skillsTeach": [
+        "dsa"
+      ],
+      "skillsLearn": [
+        "react"
+      ]
+    },
+    {
+      "_id": "mock_1775232485365",
+      "name": "ram",
+      "email": "deorasidharth1@gmail.com",
+      "password": "12345678",
+      "skillsTeach": [
+        "dbms"
+      ],
+      "skillsLearn": [
+        "react",
+        "dsa"
+      ]
+    },
+    {
+      "_id": "mock_1775234103830",
+      "name": "heee",
+      "email": "he@gmail.com",
+      "password": "12345678",
+      "skillsTeach": [
+        "django",
+        "react"
+      ],
+      "skillsLearn": [
+        "react",
+        "dsa",
+        "dbms",
+        "python"
+      ]
+    },
+    {
+      "_id": "mock_1775276871161",
+      "name": "Test User",
+      "email": "testuser@lux.com",
+      "password": "12345678",
+      "skillsTeach": [
+        "react"
+      ],
+      "skillsLearn": [
+        "python"
+      ]
+    },
+    {
+      "_id": "mock_1775277271918",
+      "name": "Verification User",
+      "email": "verify@lux.com",
+      "password": "12345678",
+      "skillsTeach": [
+        "design"
+      ],
+      "skillsLearn": [
+        "react",
+        "python"
+      ]
+    },
+    {
+      "_id": "mock_1775713041210",
+      "name": "aditya",
+      "email": "ranawataditya@gmail.com",
+      "password": "12345678",
+      "skillsTeach": [],
+      "skillsLearn": []
+    }
+  ],
+  "messages": [
+    {
+      "_id": "msg_1775221753324",
+      "sender": "mock_1775221731151",
+      "receiver": "mock_1775221653376",
+      "text": "hey",
+      "createdAt": "2026-04-03T13:09:13.324Z"
+    },
+    {
+      "_id": "msg_1775221780463",
+      "sender": "mock_1775221653376",
+      "receiver": "mock_1775221731151",
+      "text": "chal hat",
+      "createdAt": "2026-04-03T13:09:40.463Z"
+    },
+    {
+      "_id": "msg_1775232751769",
+      "sender": "mock_1775221653376",
+      "receiver": "mock_1775232485365",
+      "text": "hi",
+      "createdAt": "2026-04-03T16:12:31.769Z"
+    },
+    {
+      "_id": "msg_1775236236465",
+      "sender": "mock_1775234103830",
+      "receiver": "mock_1775221653376",
+      "text": "hey",
+      "createdAt": "2026-04-03T17:10:36.465Z"
+    },
+    {
+      "_id": "msg_1775236260783",
+      "sender": "mock_1775221653376",
+      "receiver": "mock_1775234103830",
+      "text": "hiii",
+      "createdAt": "2026-04-03T17:11:00.783Z"
+    },
+    {
+      "_id": "msg_1775276042891",
+      "sender": "mock_1775234103830",
+      "receiver": "mock_bob",
+      "text": "hi",
+      "createdAt": "2026-04-04T04:14:02.891Z"
+    },
+    {
+      "_id": "msg_1775276060635",
+      "sender": "mock_1775234103830",
+      "receiver": "mock_1775221731151",
+      "text": "teri ma kaaaaa",
+      "createdAt": "2026-04-04T04:14:20.635Z"
+    },
+    {
+      "_id": "msg_1775713601382",
+      "sender": "mock_alice",
+      "receiver": "mock_bob",
+      "text": "hi",
+      "messageType": "text",
+      "fileUrl": null,
+      "fileName": null,
+      "createdAt": "2026-04-09T05:46:41.382Z"
+    }
+  ],
+  "sessions": [
+    {
+      "_id": "sess_1775221794764",
+      "users": [
+        "mock_1775221653376",
+        "mock_1775221731151"
+      ],
+      "status": "accepted",
+      "createdAt": "2026-04-03T13:09:54.764Z",
+      "meetingLink": "https://meet.jit.si/skillswap-52fc8838a814a0f3"
+    },
+    {
+      "_id": "sess_1775235836938",
+      "requester": {
+        "_id": "mock_1775234103830"
+      },
+      "receiver": {
+        "_id": "mock_1775232485365"
+      },
+      "users": [
+        "mock_1775234103830",
+        "mock_1775232485365"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-03T17:03:56.938Z"
+    },
+    {
+      "_id": "sess_1775236182333",
+      "requester": {
+        "_id": "mock_1775221653376"
+      },
+      "receiver": {
+        "_id": "mock_1775234103830"
+      },
+      "users": [
+        "mock_1775221653376",
+        "mock_1775234103830"
+      ],
+      "status": "accepted",
+      "createdAt": "2026-04-03T17:09:42.333Z",
+      "meetingLink": "https://meet.jit.si/skillswap-00a4be0e9d57cc75"
+    },
+    {
+      "_id": "sess_1775276098999",
+      "requester": {
+        "_id": "mock_1775234103830"
+      },
+      "receiver": {
+        "_id": "mock_bob"
+      },
+      "users": [
+        "mock_1775234103830",
+        "mock_bob"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-04T04:14:58.999Z"
+    },
+    {
+      "_id": "sess_1775276950486",
+      "requester": {
+        "_id": "mock_1775276871161"
+      },
+      "receiver": {
+        "_id": "mock_bob"
+      },
+      "users": [
+        "mock_1775276871161",
+        "mock_bob"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-04T04:29:10.486Z"
+    },
+    {
+      "_id": "sess_1775277736548",
+      "requester": {
+        "_id": "mock_1775234103830"
+      },
+      "receiver": {
+        "_id": "mock_bob"
+      },
+      "users": [
+        "mock_1775234103830",
+        "mock_bob"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-04T04:42:16.548Z"
+    },
+    {
+      "_id": "sess_1775277827193",
+      "requester": {
+        "_id": "mock_1775277271918"
+      },
+      "receiver": {
+        "_id": "mock_alice"
+      },
+      "users": [
+        "mock_1775277271918",
+        "mock_alice"
+      ],
+      "status": "accepted",
+      "createdAt": "2026-04-04T04:43:47.193Z",
+      "meetingLink": "https://meet.jit.si/skillswap-918cbe0fe9b066e2"
+    },
+    {
+      "_id": "sess_1775279428693",
+      "senderId": {
+        "_id": "mock_1775221653376"
+      },
+      "receiverId": {
+        "_id": "mock_1775221731151"
+      },
+      "users": [
+        "mock_1775221653376",
+        "mock_1775221731151"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-04T05:10:28.693Z"
+    },
+    {
+      "_id": "sess_1775708550271",
+      "senderId": {
+        "_id": "mock_alice"
+      },
+      "receiverId": {
+        "_id": "mock_bob"
+      },
+      "users": [
+        "mock_alice",
+        "mock_bob"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-09T04:22:30.271Z"
+    },
+    {
+      "_id": "sess_1775711471292",
+      "senderId": {
+        "_id": "mock_alice"
+      },
+      "receiverId": {
+        "_id": "mock_bob"
+      },
+      "users": [
+        "mock_alice",
+        "mock_bob"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-09T05:11:11.292Z"
+    },
+    {
+      "_id": "sess_1775711476358",
+      "senderId": {
+        "_id": "mock_alice"
+      },
+      "receiverId": {
+        "_id": "mock_1775277271918"
+      },
+      "users": [
+        "mock_alice",
+        "mock_1775277271918"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-09T05:11:16.358Z"
+    },
+    {
+      "_id": "sess_1775713604101",
+      "senderId": {
+        "_id": "mock_alice"
+      },
+      "receiverId": {
+        "_id": "mock_bob"
+      },
+      "users": [
+        "mock_alice",
+        "mock_bob"
+      ],
+      "status": "pending",
+      "createdAt": "2026-04-09T05:46:44.101Z"
+    }
+  ]
+}

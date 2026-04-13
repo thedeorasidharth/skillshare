@@ -1,0 +1,10 @@
+
+> server@1.0.0 dev
+> node server.js
+
+◇ injecting env (3) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Server running on port 5001
+❌ MongoDB connection error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+⚠️ Running in Mock Data Mode (No database connected)
+✅ Mock Profile Fetched: alice@example.com
+✅ Mock Profile Fetched: alice@example.com
